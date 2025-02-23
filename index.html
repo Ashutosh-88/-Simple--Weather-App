@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script type="module" src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="card">
+      <h1>Weather App</h1>
+      <div class="input-div">
+        <input
+          id="inputCity"
+          type="text"
+          placeholder="Enter City name:"
+          autocomplete="off"
+        />
+        <button class="searchCity">
+          <img class="searchImg" src="./images/search.png" alt="searchImg" />
+        </button>
+        <div class="error-div">
+          <h5 class="error-text">Please enter a valid city name!!</h5>
+        </div>
+      </div>
+      <div class="output-div">
+        <div class="top-div">
+          <img
+            class="displayWeatherImg"
+            src="./images/clear.png"
+            alt="weather-images"
+          />
+          <h1 class="display-temp">23°C</h1>
+          <h2 class="display-city">Kathmandu</h2>
+        </div>
+        <hr />
+        <div class="bottom-div">
+          <div class="humidity">
+            <img
+              class="displayHumidImg"
+              src="./images/humidity.png"
+              alt="Humidity"
+            />
+            <h4 class="display-humidity">48%</h4>
+            <h5>Humidity</h5>
+          </div>
+          <div class="windSpeed">
+            <img
+              class="displayWindImg"
+              src="./images/wind.png"
+              alt="windSpeed"
+            />
+            <h4 class="display-windSpeed">10.29 km/h</h4>
+            <h5>Wind Speed</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
