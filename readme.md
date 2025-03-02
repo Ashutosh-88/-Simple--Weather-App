@@ -1,4 +1,4 @@
-# Typing Practice App
+# Weather App
 
 ![Preview_WeatherApp](./images/previewWeatherApp.png)
 
