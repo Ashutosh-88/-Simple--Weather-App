@@ -30,7 +30,7 @@ git clone https://github.com/Ashutosh-88/-Simple--Weather-App
 cd -Simple--Weather-App
 ```
 
-3. Open the `config.js` and follow the instruction to get API key and store it in API `api_key` variable.
+3. Open the `config.js` and follow the instruction to get API key and store it in `api_key` variable.
 
 ```sh
 export const api_key = "PLACE_YOUR_API_KEY_HERE";
